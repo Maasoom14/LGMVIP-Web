@@ -1,0 +1,80 @@
+/* style the form */
+
+body{
+    background-image:url('main.jpg') ;
+    background-size: cover;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  label {
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #ddd;
+  }
+  
+  input, select {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border-radius: 4px;
+    border: none;
+  }
+  
+  input[type="file"] {
+    margin-bottom: 1rem;
+  }
+  
+  button[type="submit"] {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: none;
+    background-color: #010101;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /* style the response table */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 2rem;
+    color: #010101;
+    border-radius: 4px;
+  }
+  
+  th, td {
+    border: 5px solid #dedcdc;
+    padding: 0.5rem;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #efe7e7;
+    color: #fff;
+  }
+  
+  td.image {
+    display: flex;
+    align-items: center;
+  }
+  
+  td.image img {
+    margin-right: 2rem;
+  }
+  
+  /* style the form and table headers */
+  h1, h2 {
+    text-align: center;
+    margin-top:5%;
+    color: #ddd;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
